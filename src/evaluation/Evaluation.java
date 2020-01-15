@@ -34,6 +34,13 @@ public class Evaluation {
         }
         amplitude=max-min;
         System.out.println("L'amplitude vaut : "+amplitude);
-    }
+
+        for (i=0;i<tab.length;i++){
+            System.out.println();
+           for(j=0;j<M;j++){
+            System.out.print(tab[i][j]+"\t");
+        }
+        }
+}
 }
   
